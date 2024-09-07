@@ -1,0 +1,12 @@
+site_name: Minh Eagle Tutorial
+
+nav:
+  - Home: "index.md"
+  - Python:
+      - Overview: "Python/getting-started.md"
+      - Basic:
+          - Overview: "Python/basic/basic.md"
+          - Variable: "Python/basic/variable.md"
+
+theme:
+  name: 'material'

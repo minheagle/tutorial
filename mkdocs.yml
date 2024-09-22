@@ -1,12 +1,78 @@
-site_name: Minh Eagle Tutorial
+site_name: Liberal Education Tutorial
 
 nav:
   - Home: "index.md"
-  - Python:
-      - Overview: "Python/getting-started.md"
-      - Basic:
-          - Overview: "Python/basic/basic.md"
-          - Variable: "Python/basic/variable.md"
+  - Setup:
+      - Environments: "Setup/Environments/setup_environments.md"
+      - IDE: "Setup/IDE/setup_IDE.md"
+  - Programming Language:
+    - Python:
+        - Overview: "ProgrammingLanguage/Python/getting-started.md"
+        - Basic:
+            - Overview: "ProgrammingLanguage/Python/basic/basic_syntax.md"
+            - Variable: "ProgrammingLanguage/Python/basic/test.md"
+    - Java: ""
+    - JavaScript: ""
+    - TypeScript: ""
+    - Go: ""
+    - Rust: ""
+    - C: ""
+    - C++: ""
+    - C#: ""
+    - PHP: ""
+  - Automation Testing:
+      - Overview: "Automation_Testing/overview.md"
+      - Selenium:
+          - Overview: "Automation_Testing/Selenium/overview.md"
+      - PyTest:
+          - Overview: "Automation_Testing/PyTest/overview.md"
+      - Unittest:
+          - Overview: "Automation_Testing/Unittest/overview.md"
+      - Robot Framework:
+          - Overview: "Automation_Testing/RobotFramework/overview.md"
+      - Behave:
+          - Overview: "Automation_Testing/Behave/overview.md"
+      - Locust:
+          - Overview: "Automation_Testing/Locust/overview.md"
+      - Postman + Newman:
+          - Overview: "Automation_Testing/Postman_Newman/overview.md"
+      - Requests + PyTest:
+          - Overview: "Automation_Testing/Requests_PyTest/overview.md"
+      - Appium:
+          - Overview: "Automation_Testing/Appium/overview.md"
+      - JMeter:
+          - Overview: "Automation_Testing/JMeter/overview.md"
+      - Allure:
+          - Overview: "Automation_Testing/Allure/overview.md"
+      - PyAutoGUI:
+          - Overview: "Automation_Testing/PyAutoGUI/overview.md"
+  - Frontend:
+      - React: ""
+      - Vue: ""
+      - Angular: ""
+      - Next: ""
+      - Svelte: ""
+      - Preact: ""
+  - Backend:
+      - JavaScript:
+          - ExpressJS: ""
+      - TypeScript:
+          - NestJS: ""
+      - Java:
+          - Spring Boot: ""
+      - Python:
+          - FastAPI: ""
+          - Flask: ""
+      - Go: ""
+      - Rust: ""
+      - PHP:
+          - Laravel: ""
+      - C#: ""
+  - Data Science: ""
+  - AI-ML-DL: ""
+  - Database: ""
+  - DevOps: ""
+  - Design Pattern: ""
 
 theme:
   name: 'material'

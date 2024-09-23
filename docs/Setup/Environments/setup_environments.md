@@ -2,7 +2,7 @@
 
 ## 1. Python
 
-#### Kiểm tra xem máy tính đã có Python hay chưa
+#### Kiểm tra
 
 ###### Windows 
 
@@ -40,9 +40,47 @@ python3 --version
 sudo apt install python3
 ```
 
+#### Tạo môi trường ảo trong python 
+
+Môi trường ảo giúp cho chúng ta có thể cách ly các dự án với nhau để không bị xung đột giữa các thư viện 
+
+* Mở terminal và di chuyển đến thư mục của dự án.
+
+###### Windows
+
+* Nhập vào các lệnh sau: 
+
+```commandline
+python -m venv venv 
+```
+
+```commandline
+venv/Sources/activate 
+```
+
+###### Linux
+
+* Nhập vào các lệnh sau:
+
+```commandline
+python3 -m venv venv 
+```
+
+```commandline
+source venv/bin/activate 
+```
+
 ## 2. NodeJS
 
+#### Kiểm tra
+
+```commandline
+node --version 
+```
+
 #### Cài đặt 
+
+* Truy cập vào [link](https://nodejs.org/en/download/prebuilt-installer/current) để tải xuống phiên bản mong muốn và theo hệ điều hành đang sử dụng
 
 ## 3. Java
 

@@ -30,6 +30,38 @@ nav:
           - Overview: "Automation_Testing/Unittest/overview.md"
       - Robot Framework:
           - Overview: "Automation_Testing/RobotFramework/overview.md"
+          - Getting started:
+              - Introduction: "Automation_Testing/RobotFramework/Getting_started/introduction.md"
+              - Installation instructions: "Automation_Testing/RobotFramework/Getting_started/installation_instructions.md"
+              - Demonstrations: "Automation_Testing/RobotFramework/Getting_started/demonstrations.md"
+          - Creating test data:
+              - Test data syntax: "Automation_Testing/RobotFramework/Creating_test_data/Test_data_syntax.md"
+              - Creating test cases: "Automation_Testing/RobotFramework/Creating_test_data/Creating_test_cases.md"
+              - Creating tasks: "Automation_Testing/RobotFramework/Creating_test_data/Creating_tasks.md"
+              - Creating test suites: "Automation_Testing/RobotFramework/Creating_test_data/Creating_test_suites.md"
+              - Using test libraries: "Automation_Testing/RobotFramework/Creating_test_data/Using_test_libraries.md"
+              - Variables: "Automation_Testing/RobotFramework/Creating_test_data/Variables.md"
+              - Creating user keywords: "Automation_Testing/RobotFramework/Creating_test_data/Creating_user_keywords.md"
+              - Resource and variable files: "Automation_Testing/RobotFramework/Creating_test_data/Resource_and_variable_files.md"
+              - Control structures: "Automation_Testing/RobotFramework/Creating_test_data/Control_structures.md"
+              - Advanced features: "Automation_Testing/RobotFramework/Creating_test_data/Advanced_features.md"
+          - Executing test cases:
+              - Basic usage: "Automation_Testing/RobotFramework/Executing_test_cases/Basic_usage.md"
+              - Test execution: "Automation_Testing/RobotFramework/Executing_test_cases/Test_execution.md"
+              - Task execution: "Automation_Testing/RobotFramework/Executing_test_cases/Task_execution.md"
+              - Post-processing outputs: "Automation_Testing/RobotFramework/Executing_test_cases/Post_processing_outputs.md"
+              - Configuring execution: "Automation_Testing/RobotFramework/Executing_test_cases/Configuring_execution.md"
+              - Output files: "Automation_Testing/RobotFramework/Executing_test_cases/Output_files.md"
+          - Extending Robot Framework:
+              - Creating test libraries: "Automation_Testing/RobotFramework/Extending_Robot_Framework/Creating_test_libraries.md"
+              - Remote library interface: "Automation_Testing/RobotFramework/Extending_Robot_Framework/Remote_library_interface.md"
+              - Listener interface: "Automation_Testing/RobotFramework/Extending_Robot_Framework/Listener_interface.md"
+              - Parser interface: "Automation_Testing/RobotFramework/Extending_Robot_Framework/Parser_interface.md"
+          - Supporting Tools:
+              - Library documentation tool (Libdoc): "Automation_Testing/RobotFramework/Supporting_Tools/Library_documentation_tool.md"
+              - Test data documentation tool (Testdoc): "Automation_Testing/RobotFramework/Supporting_Tools/Test_data_documentation_tool.md"
+              - Test data clean-up tool (Tidy): "Automation_Testing/RobotFramework/Supporting_Tools/Test_data_clean_up_tool.md"
+              - External tools: "Automation_Testing/RobotFramework/Supporting_Tools/External_tools.md"
       - Behave:
           - Overview: "Automation_Testing/Behave/overview.md"
       - Locust:
@@ -46,6 +78,7 @@ nav:
           - Overview: "Automation_Testing/Allure/overview.md"
       - PyAutoGUI:
           - Overview: "Automation_Testing/PyAutoGUI/overview.md"
+  - Git: ""
   - Frontend:
       - React: ""
       - Vue: ""
@@ -69,10 +102,17 @@ nav:
           - Laravel: ""
       - C#: ""
   - Data Science: ""
-  - AI-ML-DL: ""
+  - AI-ML-DL:
+      - AI: ""
+      - Machine Learning: ""
+      - Deep Learning: ""
   - Database: ""
-  - DevOps: ""
+  - DevOps:
+      - Docker: ""
+      - Kubernetes: ""
+      - Jenkins: ""
   - Design Pattern: ""
+  - Homelab: ""
 
 theme:
   name: 'material'

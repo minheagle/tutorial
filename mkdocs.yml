@@ -33,7 +33,6 @@ nav:
           - Getting started:
               - Introduction: "Automation_Testing/RobotFramework/Getting_started/introduction.md"
               - Installation instructions: "Automation_Testing/RobotFramework/Getting_started/installation_instructions.md"
-              - Demonstrations: "Automation_Testing/RobotFramework/Getting_started/demonstrations.md"
           - Creating test data:
               - Test data syntax: "Automation_Testing/RobotFramework/Creating_test_data/Test_data_syntax.md"
               - Creating test cases: "Automation_Testing/RobotFramework/Creating_test_data/Creating_test_cases.md"

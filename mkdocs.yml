@@ -110,8 +110,83 @@ nav:
       - Docker: ""
       - Kubernetes: ""
       - Jenkins: ""
+      - Ansible: ""
+      - Terraform: ""
   - Design Pattern: ""
-  - Homelab: ""
+  - Homelab:
+      - Tools:
+          - Security & Authentication:
+              - Authentik: "Homelab/Tools/Security_Authentication/Authentik/doc.md"
+              - Keycloak: ""
+          - File Management & Sharing:
+              - Chibisafe: "Homelab/Tools/File_Management_Sharing/Chibisafe/doc.md"
+              - Filebrowser: "Homelab/Tools/File_Management_Sharing/Filebrowser/doc.md"
+              - Matrix: "Homelab/Tools/File_Management_Sharing/Matrix/doc.md"
+              - Nextcloud: "Homelab/Tools/File_Management_Sharing/Nextcloud/doc.md"
+              - PingVin: "Homelab/Tools/File_Management_Sharing/PingVin/doc.md"
+              - Syncthing: "Homelab/Tools/File_Management_Sharing/Syncthing/doc.md"
+          - Backup & Sync:
+              - Duplicati: "Homelab/Tools/Backup_Sync/Duplicati/doc.md"
+              - Pairdrop: "Homelab/Tools/Backup_Sync/Pairdrop/doc.md"
+          - Note Talking & Collaboration:
+              - Excalidraw: "Homelab/Tools/Note_Talking_Collaboration/Excalidraw/doc.md"
+              - Focalboard: "Homelab/Tools/Note_Talking_Collaboration/Focalboard/doc.md"
+              - Joplin: "Homelab/Tools/Note_Talking_Collaboration/Joplin/doc.md"
+              - Mealie: "Homelab/Tools/Note_Talking_Collaboration/Mealie/doc.md"
+              - Memos: "Homelab/Tools/Note_Talking_Collaboration/Memos/doc.md"
+          - Media & Streaming:
+              - Jellyfin: "Homelab/Tools/Media_Streaming/Jellyfin/doc.md"
+              - Logitech Media Server: "Homelab/Tools/Media_Streaming/Logitech_Media_Server/doc.md"
+              - Photoprism: "Homelab/Tools/Media_Streaming/Photoprism/doc.md"
+          - Productivity & Organization:
+              - Homepage: ""
+              - IT Tools: ""
+              - Linkstack: ""
+              - Paperless: ""
+              - PrivateBin: ""
+              - MkDocs: ""
+              - FreshRSS: ""
+              - Wallos: ""
+          - Monitoring & Management:
+              - Beszel: ""
+              - cAdvisor: ""
+              - Grafana: ""
+              - Loki and Promtail: ""
+              - Nexterm: ""
+              - Nginx Proxy Manager: ""
+              - Ntfy: ""
+              - Prometheus: ""
+              - Speedtest Tracker: ""
+              - Traefik: ""
+              - Uptime Kuma: ""
+              - Watchtower: ""
+          - Docker Management & Deployment:
+              - Cosmos Cloud: ""
+              - Dockge: ""
+              - Portainer: ""
+      - Network: ""
 
 theme:
   name: 'material'
+  features:
+    - search.suggest
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+    - content.code.copy
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences

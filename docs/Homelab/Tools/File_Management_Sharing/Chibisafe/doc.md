@@ -10,7 +10,7 @@ This Docker Compose setup deploys Chibisafe in a Docker container, streamlining 
 
 #### Docker Compose File (docker-compose.yml)
 
-```
+```yaml
 version: "3.7"
 
 services:

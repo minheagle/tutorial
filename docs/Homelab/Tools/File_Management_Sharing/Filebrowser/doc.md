@@ -10,7 +10,7 @@ This Docker Compose setup deploys Filebrowser in a Docker container, providing a
 
 #### Docker Compose File (docker-compose.yml)
 
-```
+```yaml
 version: '3'
 services:
   filebrowser:

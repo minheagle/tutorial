@@ -10,7 +10,7 @@ This Docker Compose setup deploys Syncthing in a Docker container, ensuring a se
 
 #### Docker Compose File (docker-compose.yml)
 
-```
+```yaml
 version: "2.1"
 services:
   syncthing:

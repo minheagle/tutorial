@@ -10,7 +10,7 @@ This Docker Compose setup deploys Logitech Media Server in a Docker container, e
 
 #### Docker Compose File (docker-compose.yml)
 
-```
+```yaml
 version: '3'
 services:
   lms:

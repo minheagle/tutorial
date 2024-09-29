@@ -54,7 +54,7 @@ To ensure a smooth and secure Authentik deployment, follow these recommended ste
 
 2. Navigate to your preferred directory and download the official docker-compose.yml:
 
-```docker-compose
+```commandline
 wget https://goauthentik.io/docker-compose.yml
 ```
 
@@ -68,7 +68,7 @@ sudo apt-get install -y pwgen
 
 5. Generate and write a database password and Authentik secret key to your .env file:
 
-```
+```commandline
 echo "PG_PASS=$(pwgen -s 40 1)" >> .env
 echo "AUTHENTIK_SECRET_KEY=$(pwgen -s 50 1)" >> .env
 ```
@@ -77,7 +77,7 @@ echo "AUTHENTIK_SECRET_KEY=$(pwgen -s 50 1)" >> .env
 
 7. To help diagnose issues, enable error reporting:
 
-```
+```commandline
 echo "AUTHENTIK_ERROR_REPORTING__ENABLED=true" >> .env
 ```
 
@@ -87,7 +87,7 @@ Configuring global email credentials allows Authentik to send notifications and 
 
 * Append the following block to your .env file, replacing placeholders with your SMTP details:
 
-```
+```text
 AUTHENTIK_EMAIL__HOST=localhost
 AUTHENTIK_EMAIL__PORT=25
 AUTHENTIK_EMAIL__USERNAME=
@@ -104,7 +104,7 @@ By default, authentik listens internally on port 9000 for HTTP and 9443 for HTTP
 
 * To expose Authentik on standard web ports, adjust the port variables in your .env file:
 
-```
+```text
 COMPOSE_PORT_HTTP=80
 COMPOSE_PORT_HTTPS=443
 ```
@@ -117,7 +117,7 @@ COMPOSE_PORT_HTTPS=443
 
 * Start Authentik:
 
-```
+```commandline
 docker compose pull
 docker compose up -d
 ```
@@ -148,7 +148,7 @@ By following these steps, you'll have Authentik up and running, ready to manage 
 
 #### Docker Compose File (docker-compose.yml)
 
-```docker-compose
+```yaml
 version: "3.4"
 
 services:

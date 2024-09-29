@@ -12,7 +12,7 @@ This guide will walk you through deploying the Synapse Matrix Server using Docke
 
 ###### Docker Compose File:
 
-```
+```yaml
 version: '3.3'
 services:
   synapse:
@@ -33,7 +33,7 @@ services:
 
 4. Run the following command to generate the Matrix configuration files. Replace <code>matrix.elzim.xyz</code> with your server name:
 
-```
+```commandline
 docker run -it --rm -v ./data:/data -e SYNAPSE_SERVER_NAME=matrix.elzim.xyz -e SYNAPSE_REPORT_STATS=yes matrixdotorg/synapse:latest generate
 ```
 
@@ -57,7 +57,7 @@ After generating the Synapse configuration files and adjusting file ownership, t
 
 #### Sample File
 
-```
+```yaml
 # Basic server information
 server_name: "your.domain.com"  # The domain name of your Matrix server.
 pid_file: /data/homeserver.pid  # Path to the PID file for the Synapse process.
@@ -161,7 +161,7 @@ By following these steps, you've configured your Synapse server to allow user re
 
 2. Use the following command to create an admin account. Replace <code>admin</code> and <code>testing123@!</code> with your desired username and password:
 
-```
+```commandline
 docker exec -it synapse register_new_matrix_user -u admin -p testing123@! -a -c /data/homeserver.yaml http://localhost:8008
 ```
 

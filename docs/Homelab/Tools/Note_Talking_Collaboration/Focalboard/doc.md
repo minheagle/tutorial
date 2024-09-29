@@ -10,7 +10,7 @@ This Docker Compose setup deploys Focalboard in a Docker container, providing a 
 
 #### Docker Compose File (docker-compose.yml)
 
-```
+```yaml
 version: "3.3"
 services:
   focalboard:

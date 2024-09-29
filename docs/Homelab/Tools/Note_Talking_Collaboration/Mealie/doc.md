@@ -10,7 +10,7 @@ Here's how to set up Mealie using Docker Compose, explaining each component of t
 
 #### Docker Compose File (docker-compose.yml)
 
-```
+```yaml
 version: '3.8'
 services:
   mealie:
@@ -64,7 +64,7 @@ volumes:
 
 Ensure that the volume exists or Docker will create it at runtime:
 
-```
+```commandline
 docker volume create mealie-data
 ```
 
@@ -74,7 +74,7 @@ This command prepares a dedicated storage space for Mealie's data, avoiding data
 
 To deploy Mealie, navigate to the directory containing your <code>docker-compose.yml</code> and run:
 
-```
+```commandline
 docker compose up -d
 ```
 

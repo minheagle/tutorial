@@ -10,7 +10,7 @@ This Docker Compose setup deploys Jellyfin in a Docker container, ensuring a con
 
 #### Docker Compose File (docker-compose.yml)
 
-```
+```yaml
 version: "2.1"
 services:
   jellyfin:

@@ -10,7 +10,7 @@ This Docker Compose setup deploys Pairdrop in a Docker container, providing a se
 
 #### Docker Compose File (docker-compose.yml)
 
-```
+```yaml
 version: "2.1"
 services:
   pairdrop:

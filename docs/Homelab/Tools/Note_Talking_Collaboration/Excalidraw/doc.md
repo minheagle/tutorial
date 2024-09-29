@@ -10,7 +10,7 @@ This Docker Compose setup deploys Excalidraw in a Docker container, offering an 
 
 #### Docker Compose File (docker-compose.yml)
 
-```
+```yaml
 version: "3.8"
 
 services:

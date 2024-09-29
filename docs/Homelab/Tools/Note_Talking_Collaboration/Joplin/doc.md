@@ -10,7 +10,7 @@ This Docker Compose setup deploys Joplin Server along with a PostgreSQL database
 
 #### Docker Compose File (docker-compose.yml)
 
-```
+```yaml
 version: '3'
 services:
     db:

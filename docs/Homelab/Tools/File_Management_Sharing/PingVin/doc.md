@@ -10,7 +10,7 @@ Pingvin Share is a lightweight file sharing service, making it easy to host and 
 
 Here's the Docker Compose configuration for deploying Pingvin Share:
 
-```
+```yaml
 version: '3.8'
 services:
   pingvin-share:

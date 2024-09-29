@@ -10,7 +10,7 @@ This setup includes Nextcloud and a MariaDB database, ensuring an isolated and m
 
 #### Docker Compose File (docker-compose.yml)
 
-```
+```yaml
 version: '2'
 
 volumes:

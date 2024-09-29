@@ -8,7 +8,7 @@ This configuration sets up PhotoPrism, a personal photo management solution. It 
 
 Below is the Docker Compose file you will need. Copy this into a <code>docker-compose.yml</code> file in your project directory:
 
-```
+```yaml
 version: '3.9'
 services:
   photoprism:
@@ -55,7 +55,7 @@ services:
 
 3. **Launch PhotoPrism**: Navigate to the directory containing your <code>docker-compose.yml</code> file and run:
 
-```
+```commandline
 docker compose up -d
 ```
 

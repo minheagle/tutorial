@@ -12,7 +12,7 @@ The following Docker Compose configuration will help you set up Duplicati in a D
 
 #### Docker Compose File (docker-compose.yml):
 
-```
+```yaml
 version: "2.1"
 services:
   duplicati:

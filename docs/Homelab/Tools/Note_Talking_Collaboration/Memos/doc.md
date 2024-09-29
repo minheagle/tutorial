@@ -9,7 +9,7 @@ This Docker Compose setup deploys Memos in a Docker container, providing an easy
 
 #### Docker Compose File (docker-compose.yml)
 
-```
+```yaml
 version: "3.0"
 services:
   memos:

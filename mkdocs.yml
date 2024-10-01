@@ -7,10 +7,10 @@ nav:
       - IDE: "Setup/IDE/setup_IDE.md"
   - Programming Language:
     - Python:
-        - Overview: "ProgrammingLanguage/Python/getting-started.md"
+        - Overview: "Programming_Language/Python/getting-started.md"
         - Basic:
-            - Overview: "ProgrammingLanguage/Python/basic/basic_syntax.md"
-            - Variable: "ProgrammingLanguage/Python/basic/test.md"
+            - Overview: "Programming_Language/Python/basic/basic_syntax.md"
+            - Variable: "Programming_Language/Python/basic/test.md"
     - Java: ""
     - JavaScript: ""
     - TypeScript: ""
